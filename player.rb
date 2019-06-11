@@ -2,7 +2,7 @@
 class Player
 
   #attr
-  attr_accessor :hp, :p_score
+  attr_accessor :hp, :p_score, :name
 
 
   def initialize name

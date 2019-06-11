@@ -2,11 +2,12 @@
 
 class Turn
 
+attr_accessor :current_turn
 #attr
 
-  def intialize #(players)
+  def initialize #(players)
     #@players = players.shuffle
-    @this_turn = 0
+    @current_turn = 0
     # @current_player = @players.first
 
   end
